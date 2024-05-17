@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recipes.css">
+    <title>Recipe Sharing Website</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+
+    <div class="container">
+        <h1>Delicious Recipes</h1>
+        <div id="cardContainer"></div>
+    </div>
+
+    <form id="recipeForm"method="Post">
+        <h2>Share Your Recipe</h2>
+        <label for="name">Your Name</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Your Email</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="recipeName">Recipe Name</label><br>
+        <input type="text" id="recipeName" name="recipeName" required><br><br>
+        
+        <label for="description">Description</label><br>
+        <textarea id="description" name="description" rows="4" required></textarea><br><br>
+        
+        <label for="ingredients">Ingredients</label><br>
+        <textarea id="ingredients" name="ingredients" rows="4" required></textarea><br><br>
+        
+        <button type="submit">Submit Recipe</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
